@@ -1,6 +1,6 @@
 {
   "name": "view-context",
-  "description": "Create the render context for a vinyl-view.",
+  "description": "vinyl-view plugin that overwrites the `context` method on `view` to create the context used for rendering.",
   "version": "0.1.0",
   "homepage": "https://github.com/jonschlinkert/view-context",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
@@ -19,18 +19,26 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {},
+  "dependencies": {
+    "is-valid-app": "^0.1.0",
+    "mixin-deep": "^1.1.3"
+  },
   "devDependencies": {
-    "gulp-format-md": "*",
-    "mocha": "*"
+    "gulp-format-md": "^0.1.9",
+    "mocha": "^2.5.3",
+    "vinyl-view": "^0.1.0"
   },
   "keywords": [],
   "verb": {
     "layout": "default",
-    "plugins": ["gulp-format-md"],
+    "plugins": [
+      "gulp-format-md"
+    ],
     "related": {
       "list": []
     },
-    "reflinks": ["verb"]
+    "reflinks": [
+      "verb"
+    ]
   }
 }
