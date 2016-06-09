@@ -1,0 +1,36 @@
+{
+  "name": "view-context",
+  "description": "Create the render context for a vinyl-view.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/view-context",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/view-context",
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/view-context/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-format-md": "*",
+    "mocha": "*"
+  },
+  "keywords": [],
+  "verb": {
+    "layout": "default",
+    "plugins": ["gulp-format-md"],
+    "related": {
+      "list": []
+    },
+    "reflinks": ["verb"]
+  }
+}
